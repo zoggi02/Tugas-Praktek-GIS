@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TANGGAL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center_horizontal"
+        android:text="@string/hari_ini" />
+
+    <TextView
+        android:id="@+id/LAT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:gravity="center_horizontal"
+        android:text="@string/latitude" />
+
+    <TextView
+        android:id="@+id/LONG"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:gravity="center_horizontal"
+        android:text="@string/longtitude" />
+
+    <EditText
+        android:id="@+id/Lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="169dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/masukkan_lokasi"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/tampil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/tampilkan_longtitude_dan_latitude" />
+
+    <Button
+        android:id="@+id/itats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tampil"
+        android:text="@string/longtitude_dan_latitude_itats" />
+
+    <Button
+        android:id="@+id/unnar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/itats"
+        android:text="@string/longtitude_dan_latitude_narotama" />
+
+    <Button
+        android:id="@+id/clearall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unnar"
+        android:layout_centerHorizontal="true"
+        android:text="ClearAll" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <resources>
+        <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBHXUMtB_Abz_sITmBit-fnkHKMMWIsGps</string>
+    </resources>
+</android.support.constraint.ConstraintLayout>

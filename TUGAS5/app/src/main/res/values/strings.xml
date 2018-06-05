@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aditya Singgi Prayogi 04315037</string>
+    <string name="hari_ini">Hari ini</string>
+    <string name="latitude">Latitude</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="masukkan_lokasi">Masukkan Lokasi</string>
+    <string name="tampilkan_longtitude_dan_latitude">Tampilkan Longtitude dan Latitude</string>
+    <string name="button">Button</string>
+    <string name="longtitude_dan_latitude_narotama">Longtitude dan Latitude NAROTAMA</string>
+    <string name="longtitude_dan_latitude_itats">Longtitude dan Latitude ITATS</string>
+</resources>
